@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Подключаем стили -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet">
+
+  <title>Школа</title>
+</head>
+
+<body>
+  <header class="header-section">
+    <div class="container">
+      <nav class="navigation-menu" id="navbar">
+        <a href="index.html"><img src="images/logo.png" alt="Логотип школы" class="school-logo"></a>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="about-eo.html">Основные сведения</a>
+            <ul>
+              <li><a href="about-eo.html">Сведения об образовательной организации</a></li>
+              <li><a href="documents.html">Документы</a></li>
+              <li><a href="education.html">Образование</a></li>
+              <li><a href="education-standart.html">Образовательные стандарты</a></li>
+              <li><a href="leadership.html">Руководство и педагогический состав</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Электронный дневник</a></li>
+          <li><a href="#" style="width: 5px;">
+              <ion-icon name="logo-vk"></ion-icon>
+            </a></li>
+          <li><a href="#" style="width: 5px;">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+          <li><a href="#" style="width: 5px;">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li><a href="#" style="width: 5px;">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a></li>
+        </ul>
+      </nav>
+      <div class="header-text-box">
+        <h1>Кемеровская школа<br>Лучшее образование в Cибири</h1>
+        <a href="#about-us" class="header-btn">Подробнее о нас</a>
+        <a href="#news" class="header-btn">Последние новости и события</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="about-us-section" id="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="director-box">
+            <div class="director-info">
+              <img src="images/director.jpg" alt="Директор школы">
+              <h2>Баркалов<br> Илья<br> Олегович</h2>
+              <p>директор школы</p>
+              <div class="send-message-box">
+                <input type="button" value="Написать директору" class="btn-send-message">
+              </div>   
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="school-info">
+            <h2>Дорогой друг!</h2>
+            <p>
+              Сегодня Вы гость страницы самой лучшей на свете школы, где встречаются высокий профессионализм и жажда
+              познания, многократно помноженные на любовь. В результате конкурентоспособность и среднее образование
+              высочайшего качества.</p>
+
+            <h3>У нас три приоритета: Учитель, Ученик, Родитель. <br> И это вполне объяснимо.</h3>
+            <p>Вхождение любого человека в общество начинается с Учителя, Воспитателя. Учитель всегда был и остается
+              носителем высокой духовности, культуры, образцом интеллигентности. Именно Он формирует такие незыблемые
+              ценности, как Доброта, Честь, Совесть, Достоинство. Слово Учителя проникает в сердце каждого ребенка и
+              откликается любовью к родной земле, отечеству, отчему дому.</p>
+
+            <p>Ученик… Твоими глазами смотрит на нас будущее.Каким оно будет? Таким же рыжим и веснушчатым, а, может,
+              задумчивым и серьезным? Мы любим Тебя. Любого. Мы есть, потому что есть Ты. Мы работаем для Тебя. Мы
+              ждем
+              Тебя каждый день и хотим, чтобы Тебе с нами было интересно и комфортно.</p>
+
+            <p>Родитель… Мы решаем общую задачу: воспитываем и образовываем тех, кто обеспечит наше будущее. Мы
+              выполняем Ваш заказ. В соответствии с Законом «Об образовании» за Вами остаётся право выбора
+              образовательного учреждения. Вам выбирать школу, где будет учиться ваш ребёнок.</p>
+
+            <h3>У нас хорошая команда. Наша работа эффективна и мы уверенно идем вперед…</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="news-section" id="news">
+    <div class="carousel slide" data-ride="carousel" id="postsCarousel">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>Последние новости и события</h2>
+          </div>
+          <div class="col-md-4">
+            <div class="arrows">
+              <a class="btn btn-next prev">
+                <ion-icon name="arrow-round-back"></ion-icon>
+              </a>
+              <a class="btn btn-next next">
+                <ion-icon name="arrow-round-forward"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container carousel-inner">
+        <div class="row row-equal carousel-item active">
+          <!-- Первый блок новостей -->
+          <div class="col-md-4">
+            <div class="news-preview">
+              <img class="img-fluid" src="images/slide1.JPG">
+              <div class="news-preview-text">
+                <h3>Горячие новости</h3>
+                <p>
+                  Тут какой-то текст новости, но в общем-то не важно. Главное чтобы не длинный. Чутка длиннее, чем
+                  сейчас!
+                </p>
+              </div>
+              <a href="#" class="btn btn-succes">Подробнее</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="news-preview">
+              <img class="img-fluid" src="images/slide2.JPG">
+              <div class="news-preview-text">
+                <h3>Горячие новости</h3>
+                <p>
+                  Тут какой-то текст новости, но в общем-то не важно. Главное чтобы не длинный. Чутка длиннее, чем
+                  сейчас!
+                </p>
+              </div>
+              <a href="#" class="btn btn-succes">Подробнее</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="news-preview">
+              <img class="img-fluid" src="images/slide3.JPG">
+              <div class="news-preview-text">
+                <h3>Горячие новости</h3>
+                <p>
+                  Тут какой-то текст новости, но в общем-то не важно. Главное чтобы не длинный. Чутка длиннее, чем
+                  сейчас!
+                </p>
+              </div>
+              <a href="#" class="btn btn-succes">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <!-- Второй блок новостей -->
+        <div class="row row-equal carousel-item">
+          <div class="col-md-4">
+            <div class="news-preview">
+              <img class="img-fluid" src="images/slide4.JPG">
+              <div class="news-preview-text">
+                <h3>Горячие новости</h3>
+                <p>
+                  Тут какой-то текст новости, но в общем-то не важно. Главное чтобы не длинный. Чутка длиннее, чем
+                  сейчас!
+                </p>
+              </div>
+              <a href="#" class="btn btn-succes">Подробнее</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="news-preview">
+              <img class="img-fluid" src="images/slide5.JPG">
+              <div class="news-preview-text">
+                <h3>Горячие новости</h3>
+                <p>
+                  Тут какой-то текст новости, но в общем-то не важно. Главное чтобы не длинный. Чутка длиннее, чем
+                  сейчас!
+                </p>
+              </div>
+              <a href="#" class="btn btn-succes">Подробнее</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="news-preview">
+              <img class="img-fluid" src="images/slide6.JPG">
+              <div class="news-preview-text">
+                <h3>Горячие новости</h3>
+                <p>
+                  Тут какой-то текст новости, но в общем-то не важно. Главное чтобы не длинный. Чутка длиннее, чем
+                  сейчас!
+                </p>
+              </div>
+              <a href="#" class="btn btn-succes">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-content">
+            <p>
+              При использовании материалов сайта ссылка обязательна. 
+              <br> 2018, "Школа" г. Кемерово, тел: 8 (3842) 38-03-46, email: school@kemerovo.ru
+              <br>Согласия субъектов персональных данных на обработку их персональных данных имеются.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Кнопка на верх -->
+  <button onclick="topFunction()" id="btnScrollUp" title="Go to top">На верх</button>
+
+  <!-- Подключаем скрипты -->
+  <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
