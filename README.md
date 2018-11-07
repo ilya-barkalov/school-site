@@ -3,8 +3,8 @@
 
 Использованные языки и фраемворки:
 - HTML
-- CSS (Сетка - bootstarp)
-- JS (JQuery, SVG иконки - ionicons, слайдер - bootstarp)
+- CSS (Сетка - bootstrap)
+- JS (JQuery, SVG иконки - ionicons, слайдер - bootstrap)
 
 Todo:
 - [x] Написать сайт
